@@ -17,7 +17,7 @@ import com.persistentbit.core.logging.printing.LogPrintStream;
 import com.persistentbit.core.parser.ParseResult;
 import com.persistentbit.core.parser.source.Source;
 import com.persistentbit.core.result.Result;
-import com.persistentbit.core.utils.IO;
+import com.persistentbit.core.io.IO;
 import org.fife.ui.rsyntaxtextarea.RSyntaxTextArea;
 
 import javax.swing.*;
@@ -305,7 +305,7 @@ public class ReplPanel extends JPanel{
 	private void saveCmd(GGReplCmd cmd) {
 		/*File   f    = new File(cmd.params.getOpt(0).map(s -> s.toString()).orElse("session.glasg"));
 		String code = history.fold("", (a, b) -> a + UString.NL + b);
-		IO.writeFile(code, f, IO.utf8);
+		IO.write(code, f, IO.utf8);
 		System.out.println("Session saved to " + f.getAbsolutePath());
 		*/
 	}
