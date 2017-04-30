@@ -12,12 +12,12 @@ import com.persistentbit.core.glasgolia.gexpr.GExpr;
 import com.persistentbit.core.glasgolia.repl.GGReplCmd;
 import com.persistentbit.core.glasgolia.repl.GGReplCmdParser;
 import com.persistentbit.core.glasgolia.repl.ReplConfig;
+import com.persistentbit.core.io.IO;
 import com.persistentbit.core.logging.printing.LogPrint;
 import com.persistentbit.core.logging.printing.LogPrintStream;
 import com.persistentbit.core.parser.ParseResult;
 import com.persistentbit.core.parser.source.Source;
 import com.persistentbit.core.result.Result;
-import com.persistentbit.core.utils.IO;
 import org.fife.ui.rsyntaxtextarea.RSyntaxTextArea;
 
 import javax.swing.*;
